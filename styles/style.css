@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.red {
+    color: red;
+}
+
+.header-contents {
+    margin-top: 50px;
+    border-radius: 16px;
+    background-image: url('../resources/Banner\ Image.png'), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-blend-mode: darken;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+.header-contents * {
+    font-family: Merriweather;
+    text-align: center;
+    color: white;
+}
+
+.header-subcontent {
+    padding: 177px 344px;
+}
+
+.header-subtitle {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    margin: auto;
+}
+
+/* main section  */
+main section {
+    margin-bottom: 120px;
+}
+
+/* category-section  */
+.category-heading {
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.category-subheading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
