@@ -266,9 +266,11 @@ main section {
 .discount-section .section-title {
     margin-bottom: 28px;
 }
-.portfolio-description{
+
+.portfolio-description {
     width: 100%;
 }
+
 .portfolio-description p {
     width: 896px;
     line-height: 32px;
@@ -354,10 +356,13 @@ footer {
     background-color: #070211;
     height: 609px;
 }
-.footer-text-1{
+
+.footer-text-1 {
     width: 375px;
 }
-.contact p , .footer-text-1 p{
+
+.contact p,
+.footer-text-1 p {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -365,32 +370,56 @@ footer {
     font-weight: 500;
     line-height: 40px;
 }
-.contact{
+
+.contact {
     display: flex;
     align-items: center;
     column-gap: 16px;
 }
-.footer-details{
+
+.footer-details {
     display: flex;
     justify-content: space-between;
     padding-top: 120px;
     padding-bottom: 50px;
 }
-hr{
+
+hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
-.social-container{
+
+.social-container {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
     padding: 48px 0 48px 0;
 }
-.footer-about p{
+
+.footer-about p {
     color: white;
 }
-.footer-about{
+
+.footer-about {
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.discount-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discount-group {
+    position: relative;
+    width: auto;
+}
+
+.percentage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 65%;
+    margin: auto;
 }
