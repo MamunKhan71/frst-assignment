@@ -266,7 +266,9 @@ main section {
 .discount-section .section-title {
     margin-bottom: 28px;
 }
-
+.portfolio-description{
+    width: 100%;
+}
 .portfolio-description p {
     width: 896px;
     line-height: 32px;
@@ -284,54 +286,111 @@ main section {
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    justify-content: space-between;
+    row-gap: 24px;
 }
 
 .portfolio-images img {
-    width: 30%;
+    width: 32%;
     height: auto;
 }
-.newsletter-content{
+
+.newsletter-content {
     background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
     height: auto;
 }
-.newsletter-content .newsletter-icon{
+
+.newsletter-content .newsletter-icon {
     margin-bottom: 40px;
 }
-.newsletter-content .title{
+
+.newsletter-content .title {
     margin-bottom: 22px;
 }
-.newsletter-content p{
+
+.newsletter-content p {
     padding-left: 212px;
     padding-right: 212px;
     margin-bottom: 48px;
 }
+
 .newsletter-content .input-field input {
     border-radius: 50px;
     background: #FFF;
     border: none;
 }
-.newsletter-content{
+
+.newsletter-content {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.input-field{
+
+.input-field {
     width: 100%;
     position: relative;
     margin: auto;
 }
-.input-field input{
+
+.input-field input {
     width: 50%;
-    max-width: 648px;;
+    max-width: 648px;
+    ;
     height: 72px;
     margin: auto;
 }
-.input-field button{
+
+.input-field button {
     position: absolute;
     right: 25%;
     height: 72px;
     top: 0%;
     border-radius: 0 50px 50px 0;
+}
+
+/* footer section  */
+footer {
+    background-color: #070211;
+    height: 609px;
+}
+.footer-text-1{
+    width: 375px;
+}
+.contact p , .footer-text-1 p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0 48px 0;
+}
+.footer-about p{
+    color: white;
+}
+.footer-about{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
