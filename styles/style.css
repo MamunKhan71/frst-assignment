@@ -23,6 +23,14 @@
     font-weight: 700;
 }
 
+p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
 .red {
     color: red;
 }
@@ -112,7 +120,8 @@ main section {
 .party-details {
     padding: 126px 126px;
 }
-.party-details *{
+
+.party-details * {
     margin-bottom: 24px;
 }
 
@@ -137,25 +146,98 @@ main section {
 }
 
 /* Event Section  */
-.event{
+.event {
     display: flex;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 20px;
 }
-.event div{
+
+.event div {
     margin: auto;
 }
-.event h2{
+
+.event h2 {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
 }
-.event *{
+
+.event * {
     text-align: center;
 }
-.event-details .event-time{
+
+.event-details .event-time {
     margin-bottom: 48px;
+}
+
+/* offer section  */
+.offer-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.section-1-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.section-1-subtitle {
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-section-container .offer-section-1 p {
+    width: 393px;
+}
+
+/* .offer-section-2 img {
+    width: 364px;
+    height: 364px;
+    border-radius: 50%;
+    border: 50px solid white;
+    border-width: 50px 15px;
+} */
+.offer-section-2 img {
+    background-color: white;
+    border-radius: 50%;
+    border: 45px solid rgb(255, 255, 255);
+}
+
+.offer-section-2 {
+    border-radius: 50%;
+    border: 15px solid #F00;
+}
+
+.section-3-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section-3-img {
+    width: 140px;
+    height: 140px;
+}
+.offer-section-container h1{
+    margin-bottom: 16px;
+}
+.offer-section-container h2{
+    margin-bottom: 22px;
+}
+.offer-section-container p{
+    margin-bottom: 43px;
+}
+.offer-section-3{
+    align-items: flex-end;
 }
