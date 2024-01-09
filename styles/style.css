@@ -143,7 +143,6 @@ main section {
     background: url('/resources/Group\ 70.png');
     right: 9%;
     top: 10%;
-    mix-blend-mode: multiply ;
 }
 
 .party-details * {
@@ -201,33 +200,25 @@ main section {
 /* offer section  */
 .offer-section-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 }
-
-
-
-
 
 .offer-section-container .offer-section-1 p {
-    width: 393px;
+    width: 380px;
 }
 
-
+.offer-image-div{
+    border: 15px solid red;
+    border-radius: 50%;
+}
 .offer-section-2 img {
-
-    background-color: white;
-    width: 364px;
+    border: 35px solid rgb(255, 255, 255);
+    width: 350px;
     border-radius: 50%;
 }
 
-/* border: 45px solid rgb(255, 255, 255);
-}
-
-.offer-section-2 {
-    border-radius: 50%;
-    border: 15px solid #F00;
-} */
 
 .section-3-title {
     color: #F00;
@@ -240,7 +231,9 @@ main section {
     width: 140px;
     height: 140px;
 }
-
+.offer-section-container{
+    width: 100%;
+}
 .offer-section-3 p {
     width: 276px;
 }
@@ -420,18 +413,28 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-
 .discount-image {
+    width: 100%;
+    margin-top: 64px;
+    height: auto;
+    position: relative;
+}
+.first-img{
     display: flex;
     justify-content: flex-end;
 }
-.discount-image-2{
-    display: flex;
+.img-sub-1{
+    position: relative;
+}
+.img-sub-2{
+    position: absolute;
+    right: 21%;
+    top: 10%;
 }
 
-.discount-group {
-    position: relative;
-    width: auto;
+.image-3{
+    position: absolute;
+    bottom: 5%;
 }
 
 .percentage {
