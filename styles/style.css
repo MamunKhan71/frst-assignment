@@ -134,11 +134,13 @@ main section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .party-details {
     position: relative;
     padding: 126px 126px;
 }
-.party-image{
+
+.party-image {
     position: absolute;
     background: url('/resources/Group\ 70.png');
     right: 9%;
@@ -198,21 +200,28 @@ main section {
 }
 
 /* offer section  */
-.offer-section-container {
+.offer-section-1 {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-between;
-    gap: 50px;
 }
 
-.offer-section-container .offer-section-1 p {
-    width: 380px;
+.offer-section-1 .section-1-contents p {
+    width: 393px;
+    margin-bottom: 0;
 }
 
-.offer-image-div{
+.offer-image-div {
     border: 15px solid red;
     border-radius: 50%;
 }
+
+.offer-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .offer-section-2 img {
     border: 35px solid rgb(255, 255, 255);
     width: 350px;
@@ -231,11 +240,20 @@ main section {
     width: 140px;
     height: 140px;
 }
-.offer-section-container{
+
+.offer-section-container {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
-.offer-section-3 p {
+
+.section-3-contents p {
     width: 276px;
+}
+
+.offer-section-3 {
+    display: flex;
+    align-items: flex-end;
 }
 
 .offer-section-container h1 {
@@ -331,6 +349,14 @@ main section {
     border: none;
 }
 
+.input-field input[placeholder] {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .newsletter-content {
     text-align: center;
     padding-top: 80px;
@@ -346,14 +372,13 @@ main section {
 .input-field input {
     width: 50%;
     max-width: 648px;
-    ;
     height: 72px;
     margin: auto;
 }
 
 .input-field button {
     position: absolute;
-    right: 25%;
+    right: 24%;
     height: 72px;
     top: 0%;
     border-radius: 0 50px 50px 0;
@@ -387,8 +412,8 @@ footer {
 
 .footer-details {
     display: flex;
-    justify-content: space-between;
     padding-top: 120px;
+    justify-content: space-between;
     padding-bottom: 50px;
 }
 
@@ -405,36 +430,53 @@ hr {
 }
 
 .footer-about p {
+    font-size: 24px;
+    font-weight: 500;
     color: white;
+}
+
+.footer-text-2 {
+    padding-right: 135px;
 }
 
 .footer-about {
     padding-top: 50px;
     display: flex;
+
     justify-content: space-between;
 }
+
 .discount-image {
     width: 100%;
     margin-top: 64px;
     height: auto;
     position: relative;
 }
-.first-img{
+
+.first-img {
     display: flex;
     justify-content: flex-end;
 }
-.img-sub-1{
+
+.img-sub-1 {
     position: relative;
 }
-.img-sub-2{
+
+.img-sub-2 {
     position: absolute;
     right: 21%;
     top: 10%;
 }
 
-.image-3{
+.image-3 {
     position: absolute;
     bottom: 5%;
+    width: 60%;
+    left: 10px;
+}
+
+.image-4 {
+    width: 100%;
 }
 
 .percentage {
