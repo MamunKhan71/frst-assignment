@@ -51,13 +51,17 @@ p {
 }
 
 .header-contents {
+    width: 100%;
     margin-top: 50px;
     border-radius: 16px;
     background-image: url('../resources/Banner\ Image.png'), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-blend-mode: darken;
-    height: 600px;
+    height: auto;
     margin-bottom: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .header-contents * {
     font-family: Merriweather;
@@ -66,7 +70,8 @@ p {
 }
 
 .header-subcontent {
-    padding: 177px 344px;
+    padding: 15%;
+    margin: auto;
 }
 
 .header-subtitle {
@@ -120,15 +125,25 @@ main section {
 
 /* party-section  */
 .party {
+    width: 100%;
+    border-radius: 16px;
     background-image: url('../resources/Vectorrr.png'), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-blend-mode: overlay;
+    background-blend-mode: darken;
+    height: auto;
+    margin-bottom: 120px;
     background-size: cover;
-    height: 600px;
-    border-radius: 20px;
+    background-repeat: no-repeat;
 }
-
 .party-details {
+    position: relative;
     padding: 126px 126px;
+}
+.party-image{
+    position: absolute;
+    background: url('/resources/Group\ 70.png');
+    right: 9%;
+    top: 10%;
+    mix-blend-mode: multiply ;
 }
 
 .party-details * {
@@ -409,6 +424,9 @@ hr {
 .discount-image {
     display: flex;
     justify-content: flex-end;
+}
+.discount-image-2{
+    display: flex;
 }
 
 .discount-group {
